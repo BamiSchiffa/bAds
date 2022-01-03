@@ -1,0 +1,29 @@
+body {
+	height: 100%;
+	/* fallback */
+	background-color: #1a82f7;
+	background: url(images/linear_bg_2.png);
+	background-repeat: repeat-x;
+
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#115103), to(#46fb1c));
+
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #46fb1c, #115103);
+
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #46fb1c, #115103);
+
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #46fb1c, #115103);
+
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #46fb1c, #115103);
+}
+
+.middle {
+	height: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
